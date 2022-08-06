@@ -1,0 +1,32 @@
+{
+  "name": "myport",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next build && next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "2.0.21",
+    "draft-js": "^0.11.7",
+    "eslint-plugin-react-hooks": "^4.6.0-next-2c8a1452b-20220512",
+    "isomorphic-dompurify": "^0.16.0",
+    "js-base64": "^3.7.2",
+    "next": "12.1.6",
+    "print-js": "^1.6.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-pdf": "^5.5.0",
+    "react-to-pdf": "^0.0.14",
+    "split-grid": "^1.0.11",
+    "standard": "^16.0.4",
+    "swr": "^1.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-next": "11.1.2",
+    "pdfjs-dist": "^2.14.305"
+  }
+}

@@ -1,0 +1,46 @@
+.containerButton {
+  width: 140px;
+  display: flex;
+  position: relative;
+}
+
+.buttonSelect {
+  font-size: .8rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.show {
+  position: absolute;
+  top: 46px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color3);
+  padding: 18px 10px;
+  right: 0;
+  border-radius: 8px;
+  box-shadow: 0px 1px 5px var(--color6);
+  z-index: 1;
+  width: 100%;
+}
+
+.containerButton .show a,
+.containerButton .show button {
+  font-size: .8rem;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  margin: 1px 0;
+}
+
+.containerButton .show a:hover,
+.containerButton .show button:hover {
+  color: var(--color2);
+}
+
+.hidden {
+  display: none;
+}

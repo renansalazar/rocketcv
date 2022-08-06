@@ -1,0 +1,115 @@
+.groupItem{
+  margin: 8px 0 26px 0;
+}
+
+.checkBox{
+  display: flex;
+  align-items: center;
+  font-size: .8rem;
+}
+
+.checkBox input{
+  margin: 6px 6px 6px 0;
+}
+
+.containerListItems{
+  padding: 6px;
+  border: 1px solid var(--color7);
+  margin: 6px 0;
+  border-radius: 6px; 
+  grid-gap: 2px;
+  display: grid;
+}
+
+.fieldLine{
+  display: grid;
+  grid-template-columns: 3fr 6fr 24px;
+  align-items: center;
+}
+
+.containerInput{
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.containerInputRemover{
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+}
+
+.containerInputRemover label{
+  font-size: 15px!important;
+}
+
+.containerInput input[type=text]{
+  margin-bottom: 0!important;
+}
+
+.formulario input[type=text], 
+.formulario input[type=number],
+.formulario input[type=file],
+.formulario textarea, .formulario select  {
+  max-width: 100%;
+  width: 100%;
+  padding:10px;
+  border-radius:6px;
+  border: 1px solid var(--color5);
+  margin-bottom: 5px;
+  font-size: .8rem;
+}
+
+.formulario label{
+  color: var(--color1);
+  margin-bottom: 2px;
+  display: block;
+  font-size: 14px;
+}
+
+.formulario textarea{
+  font-family: inherit;
+  font-size: auto;
+  resize: none;
+}
+
+.formulario button {
+  padding:10px;
+  border-radius:6px;
+  border: none;
+  margin-bottom: 5px;
+  cursor: pointer;
+  background: transparent;
+  transition: all 200ms ease;
+  font-size: 12px;
+  color: var(--color1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.buttonRemove{
+  background-color: white;
+  background-size: 70%!important;
+  background-position: center center!important;
+  background-repeat: no-repeat!important;
+  width: 24px;
+  height: 24px;
+  padding: 2px!important;
+  object-fit: cover;
+  margin-bottom: 0!important;
+}
+
+.formulario button:hover, .buttonRemove:hover {
+  background-color: #7582ce;
+}
+
+.buttonRemove:disabled{
+  cursor: inherit;
+}
+
+.formulario h2{
+  margin: 0;
+  margin-bottom: 6px;
+}

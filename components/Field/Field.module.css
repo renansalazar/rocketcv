@@ -1,0 +1,40 @@
+.buttonEdit{
+  background-color: transparent!important;
+  background-size: 70%!important;
+  background-position: center center!important;
+  background-repeat: no-repeat!important;
+  width: 24px;
+  height: 24px;
+  padding: 2px!important;
+  object-fit: cover;
+  margin-bottom: 0!important;
+  margin-left: 4px;
+  opacity: .6;
+}
+
+.buttonEdit:hover {
+  background-color: var(--color3);
+  color: #000000;
+  opacity: 1;
+}
+
+.containerFieldEdit {
+  max-width: 50%;
+  margin: 4px 0;
+}
+
+.containerFieldEdit button{
+  margin-right: 2px;
+  display: inline!important;
+}
+
+.labelEdit{
+  cursor: pointer;
+  display: flex!important;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.containerEdit {
+  display: flex;
+}
